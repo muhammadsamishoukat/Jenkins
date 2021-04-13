@@ -1,0 +1,36 @@
+:root {
+  --pfont: Georgia, "Times New Roman", Times, serif;
+  --color-b-p: #4a5568;
+  --btnDown: #d84721;
+}
+p.pfont-tag {
+  font-family: var(--pfont);
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--color-b-p);
+}
+p.pfont {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-b-p);
+  margin-top: -25px;
+}
+p.p-para {
+  color: var(--color-b-p);
+}
+button.btndown {
+  background-color: var(--btnDown);
+  margin-left: 10px;
+  color: white;
+}
+button.btndown:hover {
+  background-color: var(--color-b-p);
+  color: white;
+}
+
+@media only screen and (min-width: 1000px) {
+  .tag {
+    margin-left: 200px;
+    margin-top: 18px;
+  }
+}

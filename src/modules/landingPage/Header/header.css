@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap");
+:root {
+  --black: #252129;
+  --gray: #747779;
+  --dropBold: 700;
+  --dropBoldcolor: var(--black);
+  --fonts: lato, Roboto, "Open Sans", sans-serif;
+}
+body {
+  font-family: var(--fonts);
+  /* overflow-y: hidden; */
+}
+
+nav.bg-dark {
+  background-color: var(--black) !important;
+}
+a.brand {
+  color: white !important;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.link-color {
+  color: var(--gray) !important;
+  line-height: 21px;
+  font-size: 13px;
+  font-family: var(--fonts);
+  font-weight: 500;
+}
+
+a.dropdown-item {
+  font-size: 13px;
+  white-space: nowrap;
+  overflow-y: hidden;
+}
+a.cd-color {
+  margin-top: -3px;
+  color: var(--gray) !important;
+  margin-right: 300px;
+}
+button.nav-button {
+  font-size: 14px;
+  color: var(--gray);
+  margin-right: 10px;
+}
+button.nav-button:hover {
+  background-color: var(--gray);
+}
+a.dropbold {
+  font-weight: var(--dropBold);
+  color: var(--dropBoldcolor);
+}

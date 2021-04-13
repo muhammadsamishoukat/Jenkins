@@ -1,0 +1,49 @@
+:root {
+  --fontsize: 32px;
+  --fontwigth: 500;
+  --lineH: 38.4px;
+  --fontclr: #ffffff;
+  --buttonclr: #c82333;
+  --button2clr: #4a5568;
+}
+.slider-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.slider-back {
+  background: linear-gradient(
+    90deg,
+    rgba(215, 116, 35, 1) 0%,
+    rgba(232, 89, 33, 1) 51%,
+    rgba(219, 42, 36, 1) 100%
+  );
+  height: fit-content;
+  width: 100%;
+  box-sizing: border-box;
+}
+.slider1 {
+  font-size: var(--fontsize);
+  font-weight: var(--fontwigth);
+  line-height: var(--lineH);
+  color: var(--fontclr);
+  margin-top: 40px;
+  overflow: hidden;
+}
+.slider1 ~ p {
+  color: var(--fontclr);
+}
+Button {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px;
+  border-radius: 5px !important;
+  background-color: var(--buttonclr);
+  color: var(--fontclr);
+}
+Button:hover {
+  background-color: var(--button2clr);
+}
+.sliderEqual {
+  margin-top: -44px;
+}
