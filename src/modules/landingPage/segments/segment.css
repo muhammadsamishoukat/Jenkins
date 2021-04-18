@@ -1,0 +1,17 @@
+:root{
+    --color-b-p: #4a5568;
+}
+.segicon{
+  color: white !important;
+  width: 50px;
+  height: 50px;
+}
+.psize{
+   font-size: 12.8px;
+   line-height: 19.2px;
+   color: var(--color-b-p);
+}
+h5{
+    color: var(--color-b-p);
+    font-weight: 400 !important;
+}

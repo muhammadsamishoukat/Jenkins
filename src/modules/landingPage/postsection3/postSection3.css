@@ -1,0 +1,25 @@
+.container-padding{
+    padding: 30px;
+    background-color: #F9F9F9;
+    color: #4A5568;
+    font-weight: 600;
+}
+.Sec-P{
+    color: #4A5568;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.Sec-img{
+     padding-top: 65px;
+}
+.Sec-img2{
+    float: right;
+}
+ul.row{
+    list-style: none;
+    
+}
+.links{
+    padding-top: 10px;
+}
